@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:id="@+id/view_left_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorGray">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/DP10"
+            android:drawableRight="@drawable/ic_delete"
+            android:text="Mark as done"
+            android:textAllCaps="false"
+            android:textColor="@color/colorWhite" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/view_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorAccent">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/DP10"
+            android:drawableRight="@drawable/ic_delete"
+            android:text="Delete"
+            android:textAllCaps="false"
+            android:textColor="@color/colorWhite" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/view_foreground"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:padding="@dimen/DP10">
+
+        <TextView
+            android:id="@+id/txtTodoTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Todo Title"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="@dimen/SPtwenty"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtTodoDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtTodoTitle"
+            android:text="Todo Description"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="@dimen/SPseventeen" />
+
+
+    </RelativeLayout>
+</FrameLayout>

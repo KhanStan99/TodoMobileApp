@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <dimen name="cardHeight">480dp</dimen>
+
+    <dimen name="DP5">5dp</dimen>
+    <dimen name="DP10">10dp</dimen>
+    <dimen name="DP20">20dp</dimen>
+    <dimen name="DP30">30dp</dimen>
+    <dimen name="DP40">40dp</dimen>
+    <dimen name="DP50">50dp</dimen>
+    <dimen name="DP60">60dp</dimen>
+    <dimen name="DP70">70dp</dimen>
+    <dimen name="DP80">80dp</dimen>
+    <dimen name="DP90">90dp</dimen>
+    <dimen name="DP100">100dp</dimen>
+
+    <dimen name="SPfifteen">15sp</dimen>
+    <dimen name="SPsixteen">16sp</dimen>
+    <dimen name="SPseventeen">17sp</dimen>
+    <dimen name="SPeighteen">18sp</dimen>
+    <dimen name="SPnineteen">19sp</dimen>
+    <dimen name="SPtwenty">20sp</dimen>
+    <dimen name="SPtwenty1">21sp</dimen>
+    <dimen name="SPtwenty2">22sp</dimen>
+    <dimen name="SPtwenty3">23sp</dimen>
+    <dimen name="SPtwenty4">24sp</dimen>
+    <dimen name="SPtwenty5">25sp</dimen>
+    <dimen name="SPtwenty6">26sp</dimen>
+    <dimen name="SPtwenty7">27sp</dimen>
+    <dimen name="SPtwenty8">28sp</dimen>
+    <dimen name="SPtwenty9">29sp</dimen>
+    <dimen name="SPthirty">30sp</dimen>
+    <dimen name="SPthirty1">31sp</dimen>
+    <dimen name="SPthirty2">32sp</dimen>
+
+</resources>

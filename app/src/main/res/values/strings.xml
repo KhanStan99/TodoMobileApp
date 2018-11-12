@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="txt_signup_success">Sign up successful, You can login with your email</string>
+</resources>

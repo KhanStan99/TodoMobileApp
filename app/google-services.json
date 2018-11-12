@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1006928464400",
+    "firebase_url": "https://my-application-c208a.firebaseio.com",
+    "project_id": "my-application-c208a",
+    "storage_bucket": "my-application-c208a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1006928464400:android:a6934ff4e87b267a",
+        "android_client_info": {
+          "package_name": "in.trentweet.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1006928464400-mauibo7empuf2ife1okhu6daslurfbk5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.trentweet.myapplication",
+            "certificate_hash": "b7e87d306269583e2fcec2b4f1635394062f3247"
+          }
+        },
+        {
+          "client_id": "1006928464400-rppjbpghh0p4g5s712clreil1b2fa1a3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRwd0IBy0AcRt1FFJslqgHjHkTkOhj60w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1006928464400-rppjbpghh0p4g5s712clreil1b2fa1a3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

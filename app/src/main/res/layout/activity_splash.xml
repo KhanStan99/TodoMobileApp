@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient"
+    tools:context=".view.Splash">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <View
+            android:id="@+id/view1"
+            android:layout_width="@dimen/DP100"
+            android:layout_height="@dimen/DP10"
+            android:layout_marginBottom="@dimen/DP10"
+            android:background="@drawable/background_white_corner" />
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="@dimen/DP100"
+            android:layout_height="@dimen/DP10"
+            android:layout_marginBottom="@dimen/DP10"
+            android:background="@drawable/background_white_corner" />
+
+        <View
+            android:id="@+id/view3"
+            android:layout_width="@dimen/DP100"
+            android:layout_height="@dimen/DP10"
+            android:background="@drawable/background_white_corner" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/DP10"
+            android:text="Great content is loading!"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/SPtwenty4" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

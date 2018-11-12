@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    tools:context=".view.TodoTask">
+
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DP60"
+        android:background="@color/colorPrimary">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="Todo List"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/SPtwenty"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/app_bar" />
+
+    <ImageButton
+        android:id="@+id/btnAddTask"
+        android:layout_width="@dimen/DP70"
+        android:layout_height="@dimen/DP70"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="@dimen/DP20"
+        android:background="@drawable/ripple_effect"
+        android:elevation="@dimen/DP10"
+        android:scaleType="centerCrop"
+        android:src="@drawable/btn_add_task" />
+
+</RelativeLayout>

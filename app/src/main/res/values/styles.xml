@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+
+    <style name="TransparentStatus" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowTranslucentStatus" tools:targetApi="kitkat">true</item>
+    </style>
+
+    <style name="MainTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+</resources>
