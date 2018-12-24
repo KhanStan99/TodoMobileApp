@@ -22,11 +22,13 @@ public class ConnectionDetector {
 
     public boolean isConnectedToInternet() {
 
-        ConnectivityManager connectivity = (ConnectivityManager) _context.getSystemService(Context.CONNECTIVITY_SERVICE);
+        ConnectivityManager connectivity = (ConnectivityManager)
+                _context.getSystemService(Context.CONNECTIVITY_SERVICE);
         if (connectivity != null) {
             NetworkInfo info = connectivity.getActiveNetworkInfo();
             if (info != null)
-                if (info.getState() == NetworkInfo.State.CONNECTED || info.getState() == NetworkInfo.State.CONNECTING) {
+                if (info.getState() == NetworkInfo.State.CONNECTED ||
+                        info.getState() == NetworkInfo.State.CONNECTING) {
                     return info.isAvailable();
                 }
         }

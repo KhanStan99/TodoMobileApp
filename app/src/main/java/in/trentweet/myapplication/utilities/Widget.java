@@ -2,22 +2,17 @@ package in.trentweet.myapplication.utilities;
 
 import android.content.Context;
 import android.graphics.Color;
-import android.support.design.widget.Snackbar;
-import android.support.v7.app.AlertDialog;
-import android.support.v7.app.AppCompatActivity;
+import com.google.android.material.snackbar.Snackbar;
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
 import android.text.TextUtils;
 import android.util.Patterns;
-import android.view.LayoutInflater;
 import android.view.View;
 
 import android.view.inputmethod.InputMethodManager;
-import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
-
-import in.trentweet.myapplication.R;
-import in.trentweet.myapplication.view.TodoTask;
 
 public class Widget extends AppCompatActivity {
 
@@ -36,7 +31,7 @@ public class Widget extends AppCompatActivity {
     public void showSnackBar(View view, String message, int length, int snackBarType) {
         Snackbar snackbar = Snackbar.make(view, message, length);
 
-        TextView textView = snackbar.getView().findViewById(android.support.design.R.id.snackbar_text);
+        TextView textView = snackbar.getView().findViewById(com.google.android.material.R.id.snackbar_text);
 
         if (snackBarType == 1)
             textView.setTextColor(Color.GREEN);
