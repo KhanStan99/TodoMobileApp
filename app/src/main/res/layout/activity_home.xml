@@ -10,7 +10,7 @@
     tools:context=".view.Home">
 
 
-    <android.support.v7.widget.CardView
+    <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="@dimen/cardHeight"
         android:layout_centerHorizontal="true"
@@ -39,7 +39,7 @@
         </com.wajahatkarim3.easyflipview.EasyFlipView>
 
 
-    </android.support.v7.widget.CardView>
+    </androidx.cardview.widget.CardView>
 
 
 </RelativeLayout>
